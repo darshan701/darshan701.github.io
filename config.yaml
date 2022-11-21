@@ -57,6 +57,9 @@ menu:
     - name: sci-fi
       url: /tags/sci-fi
       weight: 2
+    - name: horror
+      url: /tags/horror
+      weight: 2
     - name: about
       url: /about/
       weight: 3
