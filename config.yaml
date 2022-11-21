@@ -27,7 +27,10 @@ params:
     - icon: 'fab fa-instagram fa-lg'
       url: 'https://www.instagram.com/darshan.__.krishna/'
       landing: true
-    - icon: 'fab fa-cube fa-lg'
+    - icon: 'far fa-twitter fa-lg'
+      url: 'https://twitter.com/DJ_Games001'
+      landing: true
+    - icon: 'far fa-cube fa-lg'
       url: 'https://www.cgtrader.com/dj-games'
       landing: true
 
