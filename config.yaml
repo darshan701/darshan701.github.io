@@ -60,7 +60,7 @@ menu:
     - name: horror
       url: /tags/horror
       weight: 3
-    - name: horror
+    - name: dreamy
       url: /tags/dreamy
       weight: 4
     - name: about
