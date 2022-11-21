@@ -59,7 +59,10 @@ menu:
       weight: 2
     - name: horror
       url: /tags/horror
-      weight: 2
+      weight: 3
+    - name: horror
+      url: /tags/dreamy
+      weight: 4
     - name: about
       url: /about/
-      weight: 3
+      weight: 5
