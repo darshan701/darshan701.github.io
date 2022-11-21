@@ -54,9 +54,6 @@ menu:
     - name: work
       url: /work/
       weight: 1 
-    - name: bunny
-      url: /tags/bunny
-      weight: 2
     - name: sci-fi
       url: /tags/sci-fi
       weight: 2
