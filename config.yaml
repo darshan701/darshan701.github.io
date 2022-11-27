@@ -22,7 +22,7 @@ params:
   socials:
     # todo: change these links.
     - icon: 'far fa-envelope fa-lg'
-      url: 'mailto:hello@darshan.digital'
+      url: 'mailto:darshan@darshan.digital'
       landing: true
     - icon: 'fab fa-instagram fa-lg'
       url: 'https://www.instagram.com/darshan.__.krishna/'
