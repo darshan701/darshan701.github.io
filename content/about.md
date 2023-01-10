@@ -13,7 +13,7 @@ hideDate: true
   <h1>Hello, World!</h1>
   <h2>I am a 3D artist</h2>
   <p>
-    My name is [Name] and I am a 3D artist specializing in creating photorealistic 3D models and animations. With [X] years of experience in the industry, I have worked on a variety of projects ranging from product visualizations to animated short films.
+    My name is Darshan and I am a 3D artist specializing in creating photorealistic 3D models and animations. With 6 years of experience as a hobby.
   </p>
   <h2>Skills and Tools</h2>
   <ul>
@@ -23,20 +23,16 @@ hideDate: true
     <li>Lighting and rendering</li>
   </ul>
   <p>
-    I am proficient in software such as Autodesk Maya, ZBrush, and Substance Painter.
+    I am proficient in software such as Blender, ZBrush, and Substance Painter.
   </p>
   <h2>Experience</h2>
-  <h3>Freelance 3D Artist - [Year]-Present</h3>
+  <h3>Freelance 3D Artist - 2020-Present</h3>
   <ul>
-    <li>Collaborated with clients to create 3D assets for various projects including product visualizations, architectural renderings, and character designs.</li>
-  </ul>
-  <h3>3D Artist at [Company] - [Year]-[Year]</h3>
-  <ul>
-    <li>Worked as part of a team to produce 3D assets for animated commercials and short films.</li>
+    <li>Collaborated with clients to create 3D assets for various projects including game dezign and architectural renderings.</li>
   </ul>
   <h2>Education</h2>
   <ul>
-    <li>Bachelor of Fine Arts in Digital Arts - [University]</li>
+    <li>Game Arts - George brown collage</li>
   </ul>
 </body>
 </html>
