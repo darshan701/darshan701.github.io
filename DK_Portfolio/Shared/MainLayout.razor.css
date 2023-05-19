@@ -1,0 +1,40 @@
+.dp{
+    border-radius: 50%;
+}
+
+#screen-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-image: url("img/dj-factory2.jpg");
+}
+
+
+
+.intro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 35%;
+}
+
+
+.brief-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.brief-about h2{
+    color: #787878;
+    font-size: medium;
+    display: block;
+    margin-bottom: 20%;
+}
+
+#screen-2{
+    height: 100%;
+    width: 100%;
+}

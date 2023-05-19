@@ -1,0 +1,46 @@
+@page "/Portfolio"
+
+<div id="focus">
+    @for (int i = 0; i < GetImgCount(); i++)
+    {
+        <img src=@GetImgPreviews(i) alt="">
+    }
+</div>
+
+@code {
+
+    string[] images = new[]
+    {
+        "https://cdnb.artstation.com/p/assets/images/images/062/967/377/large/dj-render-main-camera.jpg",
+        "https://cdna.artstation.com/p/assets/images/images/062/695/270/large/dj-room-render3-converted.jpg",
+        "https://cdnb.artstation.com/p/assets/images/images/058/084/005/large/darshan-krishna-modern-corridor.jpg",
+        "https://cdnb.artstation.com/p/assets/images/images/057/990/157/large/darshan-krishna-cyberpunk-corridor.jpg",
+        "https://cdnb.artstation.com/p/assets/images/images/061/133/441/large/darshan-krishna-water-temple-blue1.jpg?1680089995",
+        "https://cdna.artstation.com/p/assets/images/images/060/559/970/large/darshan-krishna-bike4.jpg?1678829966",
+        "https://cdna.artstation.com/p/assets/images/images/058/082/482/large/darshan-krishna-arc-reactor.jpg?1673355818",
+        "https://cdnb.artstation.com/p/assets/images/images/059/177/707/large/darshan-krishna-render2.jpg?1675808238",
+        "https://cdnb.artstation.com/p/assets/images/images/062/578/465/large/dj-factory2.jpg?1683482713",
+        "https://cdnb.artstation.com/p/assets/images/images/061/889/261/large/darshan-krishna-cyborg-skull.jpg?1681859607",
+        "https://cdnb.artstation.com/p/assets/images/images/058/084/545/large/darshan-krishna-dice.jpg?1673358929",
+        "https://cdna.artstation.com/p/assets/images/images/061/889/058/large/darshan-krishna-hospital.jpg?1681859237",
+        "https://cdnb.artstation.com/p/assets/images/images/058/097/767/large/darshan-krishna-dreamy-tunnel.jpg?1673377650",
+        "https://cdna.artstation.com/p/assets/video_clips/images/057/990/284/smaller_square/darshan-krishna-thumb.jpg?1673143421",
+        "https://cdnb.artstation.com/p/assets/images/images/058/086/249/large/darshan-krishna-blood-gate.jpg?1673361462",
+        "https://cdnb.artstation.com/p/assets/images/images/058/085/227/large/darshan-krishna-tunnel.jpg?1673359967",
+        "https://cdnb.artstation.com/p/assets/images/images/058/064/225/large/darshan-krishna-under-a-highway2.jpg?1673310003",
+        "https://cdna.artstation.com/p/assets/images/images/058/084/302/large/darshan-krishna-boss001.jpg?1673358521"
+    };
+
+    // Known valid values: large, small, smaller_square
+    public int GetImgCount() => images.Length;
+    public string GetImgPreviews(int i)
+    {
+        return images[i].Replace("large", "smaller_square");
+    }
+}
+
+<style>
+    main{
+        background: #0c4128;
+    }
+</style>

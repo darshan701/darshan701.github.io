@@ -1,0 +1,17 @@
+#focus{
+    padding: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    background: #101014;
+    align-items: start;
+    justify-content: center;
+}
+
+#focus img{
+    height: 250px;
+    width: 250px;
+    margin: 2px;
+    display: block;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 5%;
+}

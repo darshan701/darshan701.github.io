@@ -1,0 +1,29 @@
+﻿@inherits LayoutComponentBase
+
+
+<style>
+    html, body, #app, .page, main{
+           height: 100%; /* make it all fill screen */
+           color: white;
+    }
+</style>
+
+<div class="page">
+    <div id="screen-1">
+            <div class="intro">
+                <div class="brief-about">
+                    <img src="img/profile.jpg" alt="profile" width="150" class="dp">
+                    <h1>Darshan Krishna</h1>
+                    <h2>3D Artist - First year-Game art student at GBC</h2>
+                </div>
+            </div>
+        </div>
+        <div id="screen-2">
+            <NavMenu></NavMenu>
+            <main>
+                @Body
+            </main>
+            
+        <AnchorNavigator></AnchorNavigator>
+        </div>
+</div>

@@ -1,0 +1,22 @@
+*{
+    color: unset;
+    text-decoration: none;
+    margin: 0;
+}
+
+nav>ul{
+    display: flex;
+    justify-content: center;
+    background: #18181C;
+    color: #E8E8EB;
+}
+nav>ul li{
+    display: inline-block;
+    padding: 1em;
+    background: #18181C;
+}
+
+nav>ul li:hover, nav>ul li:focus{
+    background: #0C0C0E;
+}
+
