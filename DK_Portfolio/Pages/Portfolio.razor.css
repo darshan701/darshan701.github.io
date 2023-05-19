@@ -14,4 +14,33 @@
     display: block;
     box-shadow: 1px 1px 3px black;
     border-radius: 5%;
+    transition: transform .1s; /* Animation */
 }
+
+#focus:hover img:not(:hover){
+    opacity: 0.85;
+}
+
+#focus img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+   /* animation: radius 0.2s;
+    animation-fill-mode: forwards;*/
+    z-index: 2;
+}
+/*
+
+@keyframes radius {
+    0%{
+        border-radius: 5%;
+    }
+    40%{
+        border-radius: 2%;
+    }
+    85%{
+        border-radius: 1%;
+    }
+    100%{
+        border-radius: 0;
+    }
+}*/
