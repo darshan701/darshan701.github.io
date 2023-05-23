@@ -2,6 +2,8 @@
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: #101014;
+    color: white;
 }
 
 .valid.modified:not([type=checkbox]) {
